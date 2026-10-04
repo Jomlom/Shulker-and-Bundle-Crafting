@@ -39,6 +39,10 @@ neoForge {
     }
 }
 
+dependencies {
+    implementation files(rootProject.file("libs/recipebookaccess-neoforge-1.4.0.jar"))
+}
+
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 // Implement mcgradleconventions loader attribute
